@@ -125,5 +125,36 @@
       "owner": "Alice",
       "status": "draft"
     }
+  ],
+  "users": [{
+      "username": "Carol",
+      "department": "Engineering",
+      "role": "employee"
+    },
+    {
+      "username": "Dan",
+      "department": "Finance",
+      "role": "client"
+    },
+    {
+      "username": "Elena",
+      "department": "Finance",
+      "role": "employee"
+    },
+    {
+      "username": "Tim",
+      "department": "Engineering",
+      "role": "SVP, Administration and Finance"
+    },
+    {
+      "username": "Bob",
+      "department": "Finance",
+      "role": "employee"
+    },
+    {
+      "username": "Alice",
+      "department": "Sales",
+      "role": "employee"
+    }
   ]
 }
