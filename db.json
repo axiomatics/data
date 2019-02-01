@@ -129,32 +129,32 @@
   "user": [{
       "username": "Carol",
       "department": "Engineering",
-      "role": "employee"
+      "roles": ["employee"]
     },
     {
       "username": "Dan",
       "department": "Finance",
-      "role": "client"
+      "roles": ["client"]
     },
     {
       "username": "Elena",
       "department": "Finance",
-      "role": "employee"
+      "roles": ["employee"]
     },
     {
       "username": "Tim",
       "department": "Engineering",
-      "role": "SVP, Administration and Finance"
+      "roles": ["SVP", "Administration and Finance"]
     },
     {
       "username": "Bob",
       "department": "Finance",
-      "role": "employee"
+      "roles": ["employee"]
     },
     {
       "username": "Alice",
       "department": "Sales",
-      "role": "employee"
+      "roles": ["employee"]
     }
   ]
 }
