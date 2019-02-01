@@ -126,7 +126,7 @@
       "status": "draft"
     }
   ],
-  "users": [{
+  "user": [{
       "username": "Carol",
       "department": "Engineering",
       "role": "employee"
