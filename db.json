@@ -127,32 +127,32 @@
     }
   ],
   "user": [{
-      "username": "Carol",
+      "id": "Carol",
       "department": "Engineering",
       "roles": ["employee"]
     },
     {
-      "username": "Dan",
+      "id": "Dan",
       "department": "Finance",
       "roles": ["client"]
     },
     {
-      "username": "Elena",
+      "id": "Elena",
       "department": "Finance",
       "roles": ["employee"]
     },
     {
-      "username": "Tim",
+      "id": "Tim",
       "department": "Engineering",
       "roles": ["SVP", "Administration and Finance"]
     },
     {
-      "username": "Bob",
+      "id": "Bob",
       "department": "Finance",
       "roles": ["employee"]
     },
     {
-      "username": "Alice",
+      "id": "Alice",
       "department": "Sales",
       "roles": ["employee"]
     }
