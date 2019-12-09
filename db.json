@@ -154,7 +154,7 @@
     {
       "id": "Alice",
       "department": "Sales",
-      "roles": ["employee"]
+      "roles": ["manager"]
     }
   ]
 }
