@@ -1,5 +1,6 @@
 {
-  "record": [{
+  "record": [
+    {
       "id": 123,
       "department": "Sales",
       "owner": "Alice",
@@ -126,35 +127,185 @@
       "status": "draft"
     }
   ],
-  "user": [{
+  "user": [
+    {
       "id": "Carol",
       "department": "Engineering",
-      "roles": ["employee"]
+      "roles": [
+        "employee"
+      ]
     },
     {
       "id": "Dan",
       "department": "Finance",
-      "roles": ["client"]
+      "roles": [
+        "client"
+      ]
     },
     {
       "id": "Elena",
       "department": "Finance",
-      "roles": ["employee"]
+      "roles": [
+        "employee"
+      ]
     },
     {
       "id": "Tim",
       "department": "Engineering",
-      "roles": ["SVP", "Administration and Finance"]
+      "roles": [
+        "SVP",
+        "Administration and Finance"
+      ]
     },
     {
       "id": "Bob",
       "department": "Finance",
-      "roles": ["employee"]
+      "roles": [
+        "employee"
+      ]
     },
     {
       "id": "Alice",
       "department": "Sales",
-      "roles": ["manager"]
+      "roles": [
+        "manager"
+      ]
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "purchaseDate": "2024-06-01",
+      "accountId": "1",
+      "customerID": "Helen",
+      "country": "US",
+      "item": [
+        {
+          "name": "Espresso Macchiato",
+          "amount": 5.1
+        },
+        {
+          "name": "Chocolate Chip Cookie",
+          "amount": 3
+        }
+      ],
+      "accountBalance": 120
+    },
+    {
+      "id": 2,
+      "purchaseDate": "2024-07-01",
+      "accountId": "1",
+      "customerID": "Timmy",
+      "country": "US",
+      "item": [
+        {
+          "name": "Mocha Cookie Crumble Frappuccino",
+          "amount": 5.5
+        },
+        {
+          "name": "Double Chocolate Brownie",
+          "amount": 3
+        }
+      ],
+      "accountBalance": 120
+    },
+    {
+      "id": 3,
+      "purchaseDate": "2024-07-01",
+      "accountId": "2",
+      "customerID": "Terrance",
+      "country": "CA",
+      "item": [
+        {
+          "name": "Maple Syrup Vanilla Bean Crème Frappuccino® Blended Crème",
+          "amount": 5
+        },
+        {
+          "name": "Double Chocolate Brownie",
+          "amount": 5
+        }
+      ],
+      "accountBalance": 120
+    },
+    {
+      "id": 4,
+      "purchaseDate": "2024-07-01",
+      "accountId": "3",
+      "customerID": "Phillip",
+      "country": "CA",
+      "item": [
+        {
+          "name": "Maple Syrup Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
+          "amount": 5
+        },
+        {
+          "name": "Cinnamon Coffee Cake",
+          "amount": 5
+        }
+      ],
+      "accountBalance": 120
+    },
+    {
+      "id": 5,
+      "purchaseDate": "2024-07-04",
+      "accountId": "",
+      "customerID": "Helen",
+      "country": "US",
+      "item": [
+        {
+          "name": "Espresso Macchiato",
+          "amount": 5.1
+        },
+        {
+          "name": "Rolled & Steel-Cut Oatmeal",
+          "amount": 3.5
+        }
+      ],
+      "accountBalance": 105
+    },
+    {
+      "id": 6,
+      "purchaseDate": "2024-07-08",
+      "accountId": "1",
+      "customerID": "Helen",
+      "country": "US",
+      "item": [
+        {
+          "name": "Vanilla Bean Crème Frappuccino® Blended Crème",
+          "amount": 5
+        }
+      ],
+      "accountBalance": 95
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "owner": "Helen",
+      "type": "Family",
+      "member": [
+        "Helen",
+        "Timmy"
+      ],
+      "country": "US"
+    },
+    {
+      "id": 2,
+      "owner": "Terrance",
+      "type": "Individual",
+      "member": [
+        "Terrance"
+      ],
+      "country": "CA"
+    },
+    {
+      "id": 3,
+      "owner": "Phillip",
+      "type": "Individual",
+      "member": [
+        "Phillip"
+      ],
+      "country": "CA"
     }
   ]
 }
